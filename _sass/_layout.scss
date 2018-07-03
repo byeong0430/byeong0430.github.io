@@ -29,6 +29,12 @@ div.home {
   margin-top: 58px;
 }
 
+// horizontal line in 'about' section
+hr.red-line {
+  @include hr-redline(0.1em);
+}
+
+// section divider
 hr.section-divider {
   @include hr-redline(1em);
 }

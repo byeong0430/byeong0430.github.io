@@ -7,9 +7,6 @@ main.site-about {
       /* vertically align img and profile*/
       display: flex;
       align-items: center;
-      hr.red-line {
-        @include hr-redline(0.1em);
-      }
       img {
         margin: 0 auto;
         width: $facepic-length;
