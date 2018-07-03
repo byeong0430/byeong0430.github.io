@@ -6,6 +6,7 @@
 
 html {
   box-sizing: border-box;
+  background-color: $background-colour;
 }
 
 *,
@@ -19,5 +20,6 @@ html {
  */
 
 body {
-  font-family: $theme-font;
+  /* default background colour is white. remove it */
+  background: none;
 }
