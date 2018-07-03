@@ -14,7 +14,6 @@ main.site-about {
       div.profile {
         /* this margin should be noticeable when pic goes on top of bio */
         margin: 15px 0;
-        font-family: $label-font;
       }
       section.bio {
         hr.red-line {
@@ -32,15 +31,13 @@ main.site-about {
           margin: 0;
         }
         h1 {
-          font-weight: 800;
-          font-size: 2.8em;
+          @extend %title-style;
         }
         h2 {
-          font-size: 1.4em;
+          @extend %sub-title-style;
         }
         p {
-          font-family: $para-font;
-          font-size: 1.2em;
+          @extend %para-style;
         }
       }
       a.btn,

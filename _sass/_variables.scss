@@ -1,7 +1,31 @@
 $background-colour: #F9F4ED;
 @import url('https://fonts.googleapis.com/css?family=Nunito:400,800');
-$label-font: 'Nunito', sans-serif;
+$label-font: 'Nunito',
+sans-serif;
+%title-style {
+  font-family: $label-font;
+  font-weight: 800;
+  font-size: 2.8em;
+}
+
+%sub-title-style {
+  font-family: $label-font;
+  font-size: 1.4em;
+}
+
+%header-style {
+  @extend %title-style;
+  text-align: center;
+}
+
 @import url('https://fonts.googleapis.com/css?family=Bitter');
-$para-font: 'Bitter', georgia, serif;
+$para-font: 'Bitter',
+georgia,
+serif;
+%para-style {
+  font-family: $para-font;
+  font-size: 1.1em;
+}
+
 $facepic-length: 277px;
 $btn-color: #444;

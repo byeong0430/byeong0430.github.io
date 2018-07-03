@@ -1,0 +1,18 @@
+main.site-experience {
+  header.experience-header {
+    @extend %header-style;
+  }
+  section.job-name {
+    @extend %sub-title-style;
+    text-align: right;
+    header.company-name {
+      font-weight: 800;
+    }
+    main.job-role {
+      font-weight: 400;
+    }
+  }
+  section.job-description {
+    @extend %para-style;
+  }
+}
