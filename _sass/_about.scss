@@ -7,6 +7,9 @@ main.site-about {
       /* vertically align img and profile*/
       display: flex;
       align-items: center;
+      hr.red-line {
+        @include hr-redline(0.1em);
+      }
       img {
         margin: 0 auto;
         width: $facepic-length;
@@ -18,9 +21,6 @@ main.site-about {
         margin: 15px 0;
       }
       section.bio {
-        hr.red-line {
-          @include hr-redline(0.1em);
-        }
         h1,
         h2 {
           margin: 0;
@@ -35,12 +35,12 @@ main.site-about {
           @extend %para-style;
         }
       }
-      a.btn,
-      span.btn {
+      a.btn {
         font-family: $label-font;
-        font-size: 1.2em;
+        font-size: 1.1em;
         display: inline-block;
-        margin-right: 0.5em;
+        margin: 0 0.5em 0.5em 0;
+        padding: 0.3em;
         background-color: $btn-color;
         color: white;
       }

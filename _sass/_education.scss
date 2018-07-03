@@ -19,6 +19,10 @@ main.site-education {
     section.edu-description {
       margin: $exp-top-bott-margin;
       @extend %para-style;
+      span.badge{
+        font-size: 15px;
+        margin: 1px 1px 1px 0;
+      }
     }
     @media (max-width: 575px) {
       section.edu-name {
