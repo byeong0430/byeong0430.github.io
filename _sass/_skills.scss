@@ -1,0 +1,24 @@
+main.site-skills {
+  header#skills-header {
+    @extend %header-style;
+  }
+  div.d-flex {
+    article {
+      background-color: white;
+      margin: 0.5em;
+      padding: 0.5em;
+      border-radius: 1em;
+      text-align: center;
+      p {
+        margin: 0 0 0.5em;
+        font-family: $label-font;
+        font-weight: 800;
+        font-size: 1.3em;
+      }
+      img {
+        width: 110px;
+        height: 110px;
+      }
+    }
+  }
+}
