@@ -4,29 +4,26 @@
     <div class='row'>
       <img src='/assets/img/faceshot.png' alt='face pic'>
       <div class='col profile'>
-        <div class='bio'>
+        <section class='bio'>
           <h1>Byeong Kim</h1>
           <h2>Web Developer Student</h2>
           <hr class='red-line'>
           <p>{{ site.description }}</p>
-        </div>
-        <div class='contact'>
-          <p>
-            <a href="https://github.com/{{ site.github_username }}" type='button' class='btn' target='_blank'>
-              <i class='fab fa-github'></i>byeong0430
-            </a>
-          </p>
-          <p>
-            <a href="mailto:{{ site.email }}" type='button' class='btn'>
-              <i class='fas fa-envelope-square'></i>byeong.kim0430@gmail.com
-            </a>
-          </p>
-          <p>
-            <span class='btn'>
-              <i class='fas fa-phone-volume'></i>{{ site.telephone }}
-            </span>
-          </p>
-        </div>
+        </section>
+        <section class='contact'>
+          <a href="https://github.com/{{ site.github_username }}" type='button' class='btn' target='_blank'>
+            <i class='fab fa-github'></i>
+          </a>
+          <a href="https://linkedin.com/{{ site.linked_in_shortUrl }}" type='button' class='btn' target='_blank'>
+            <i class='fab fa-linkedin'></i>
+          </a>
+          <a href="mailto:{{ site.email }}" type='button' class='btn'>
+            <i class='fas fa-envelope-square'></i>byeong.kim0430@gmail.com
+          </a>
+          <span class='btn'>
+            <i class='fas fa-phone-volume'></i>{{ site.telephone }}
+          </span>
+        </section>
       </div>
     </div>
   </article>
