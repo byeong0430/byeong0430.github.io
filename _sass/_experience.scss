@@ -2,17 +2,31 @@ main.site-experience {
   header.experience-header {
     @extend %header-style;
   }
-  section.job-name {
-    @extend %sub-title-style;
-    text-align: right;
-    header.company-name {
-      font-weight: 800;
+  main.container {
+    section.job-name {
+      margin: $exp-top-bott-margin;
+      @extend %sub-title-style;
+      text-align: right;
+      border-right: 2px $timeline-color solid;
+      header.company-name {
+        font-weight: 800;
+      }
+      main.job-role {
+        font-weight: 400;
+        font-size: 1.1em;
+      }
     }
-    main.job-role {
-      font-weight: 400;
+    @media (max-width: 575px) {
+      section.job-name {
+        text-align: left;
+        margin-left: 40px;
+        border-right: none;
+        border-left: 2px $timeline-color solid;
+      }
     }
-  }
-  section.job-description {
-    @extend %para-style;
+    section.job-description {
+      margin: $exp-top-bott-margin;
+      @extend %para-style;
+    }
   }
 }
