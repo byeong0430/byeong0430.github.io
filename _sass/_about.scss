@@ -1,0 +1,32 @@
+main.site-about {
+  padding: 50px 0;
+  // background-color: rgb(32, 196, 203);
+  article.container {
+    div.row {
+      display: flex;
+      align-items: center;
+    }
+    img {
+      margin: 0 auto;
+      width: $facepic-length;
+      height: $facepic-length;
+      border-radius: 250px;
+    }
+    h1 {
+      margin: 15px 0 0;
+      font-size: 50px;
+      font-weight: 900;
+    }
+    h2 {
+      margin: 0;
+      font-size: 25px;
+    }
+    div.bio p {
+      margin-top: 10px;
+    }
+    div.contact p {
+      display: inline-block;
+      margin-right: 20px;
+    }
+  }
+}
