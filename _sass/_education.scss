@@ -1,0 +1,32 @@
+main.site-education {
+  header#education-header {
+    @extend %header-style;
+  }
+  main.container {
+    section.edu-name {
+      margin: $exp-top-bott-margin;
+      @extend %sub-title-style;
+      text-align: right;
+      border-right: 2px $timeline-color solid;
+      header.edu-degree {
+        font-weight: 800;
+      }
+      main.fac-name {
+        font-weight: 400;
+        font-size: 1.1em;
+      }
+    }
+    section.edu-description {
+      margin: $exp-top-bott-margin;
+      @extend %para-style;
+    }
+    @media (max-width: 575px) {
+      section.edu-name {
+        text-align: left;
+        margin-left: 0;
+        border-right: none;
+        border-left: 2px $timeline-color solid;
+      }
+    }
+  }
+}
