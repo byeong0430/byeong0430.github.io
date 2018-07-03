@@ -1,7 +1,9 @@
 main.site-about {
-  padding: 50px 0;
+  padding: 4em 0;
   article.container {
     div.row {
+      // border:1px red solid;
+      padding: 15px;
       /* vertically align img and profile*/
       display: flex;
       align-items: center;
@@ -17,7 +19,7 @@ main.site-about {
       }
       section.bio {
         hr.red-line {
-          @extend %hr-redline;
+          @include hr-redline(0.1em);
         }
         h1,
         h2 {

@@ -22,4 +22,19 @@ html {
 body {
   /* default background colour is white. remove it */
   background: none;
+  color: #3B3B3B;
+}
+
+div.home {
+  margin-top: 58px;
+}
+
+hr.section-divider {
+  @include hr-redline(1em);
+}
+
+@media (max-width: 575px) {
+  ul {
+    padding-left: 0px;
+  }
 }

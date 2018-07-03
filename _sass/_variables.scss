@@ -2,6 +2,7 @@
 $label-font: 'Nunito',
 sans-serif;
 %title-style {
+  text-transform: uppercase;
   font-family: $label-font;
   font-weight: 800;
   font-size: 2.8em;
@@ -26,12 +27,12 @@ serif;
   font-size: 1.1em;
 }
 
-%hr-redline {
+@mixin hr-redline($thickness) {
   margin: 10px 0;
   padding: 0;
   border: 0;
   clear: both;
-  height: 0.25em;
+  height: $thickness;
   background: #c66;
   display: block;
   border-radius: 0.25em;
@@ -40,5 +41,5 @@ serif;
 $background-colour: #F9F4ED;
 $facepic-length: 277px;
 $btn-color: #444;
-$timeline-color: rgb(85, 81, 81);
-$exp-top-bott-margin: 15px 0;
+$timeline-color: #555151;
+$exp-top-bott-margin: 1em 0;

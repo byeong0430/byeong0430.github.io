@@ -1,5 +1,5 @@
 main.site-experience {
-  header.experience-header {
+  header#experience-header {
     @extend %header-style;
   }
   main.container {
@@ -16,17 +16,17 @@ main.site-experience {
         font-size: 1.1em;
       }
     }
-    @media (max-width: 575px) {
-      section.job-name {
-        text-align: left;
-        margin-left: 40px;
-        border-right: none;
-        border-left: 2px $timeline-color solid;
-      }
-    }
     section.job-description {
       margin: $exp-top-bott-margin;
       @extend %para-style;
+    }
+    @media (max-width: 575px) {
+      section.job-name {
+        text-align: left;
+        margin-left: 0;
+        border-right: none;
+        border-left: 2px $timeline-color solid;
+      }
     }
   }
 }
