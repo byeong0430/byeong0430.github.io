@@ -16,7 +16,7 @@ main.site-about {
         margin: 15px 0;
         font-family: $label-font;
       }
-      div.bio {
+      section.bio {
         hr.red-line {
           margin: 10px 0;
           padding: 0;
@@ -43,19 +43,14 @@ main.site-about {
           font-size: 1.2em;
         }
       }
-      div.contact p {
+      a.btn,
+      span.btn {
         font-family: $label-font;
-        font-size: 1.5em;
+        font-size: 1.2em;
         display: inline-block;
-        margin-right: 1em;
-        .btn {
-          background-color: $btn-color;
-          color: white;
-          i {
-            font-size: 1.3em;
-            margin-right: 5px;
-          }
-        }
+        margin-right: 0.5em;
+        background-color: $btn-color;
+        color: white;
       }
     }
   }
