@@ -5,7 +5,7 @@ sans-serif;
   text-transform: uppercase;
   font-family: $label-font;
   font-weight: 800;
-  font-size: 2.3em;
+  font-size: 2em;
 }
 
 %header-style {
@@ -18,7 +18,7 @@ sans-serif;
 
 %sub-title-style {
   font-family: $label-font;
-  font-size: 1.3em;
+  font-size: 1em;
 }
 
 @import url('https://fonts.googleapis.com/css?family=Bitter');
@@ -27,7 +27,7 @@ georgia,
 serif;
 %para-style {
   font-family: $para-font;
-  font-size: 1.1em;
+  font-size: 0.9em;
 }
 
 %shadow-effect {
