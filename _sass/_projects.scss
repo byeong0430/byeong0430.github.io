@@ -1,0 +1,34 @@
+main.site-projects {
+  header#projects-header {
+    @extend %header-style;
+  }
+  main.container {
+    section.project {
+      margin: $exp-top-bott-margin;
+      border-left: 2px $timeline-color solid;
+      h1,
+      h2 {
+        margin: 0;
+      }
+      h1 {
+        @extend %sub-title-style;
+        font-weight: 800;
+        a {
+          color: inherit;
+        }
+      }
+      h2 {
+        @extend %sub-title-style;
+      }
+      p,
+      li {
+        @extend %para-style;
+        display: inline-block;
+      }
+      img {
+        width: 100%;
+        border-radius: 1em;
+      }
+    }
+  }
+}
