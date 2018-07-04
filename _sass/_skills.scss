@@ -3,11 +3,12 @@ main.site-skills {
     @extend %header-style;
   }
   div.d-flex {
+    margin: 1em 0;
     article {
-      background-color: white;
-      margin: 0.5em;
+      margin: 0.3em;
       padding: 0.5em;
       border-radius: 1em;
+      background-color: white;
       text-align: center;
       p {
         margin: 0 0 0.5em;
