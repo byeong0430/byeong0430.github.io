@@ -39,6 +39,11 @@ hr.section-divider {
   @include hr-redline(1em);
 }
 
+// there is too much padding on ul. reduce it to 10px
+ul {
+  padding-left: 10px;
+}
+
 @media (max-width: 575px) {
   ul {
     padding-left: 0px;
