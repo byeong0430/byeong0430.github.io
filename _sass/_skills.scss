@@ -16,8 +16,7 @@ main.site-skills {
         font-size: 1.3em;
       }
       img {
-        width: 110px;
-        height: 110px;
+        @extend %skill-img;
       }
     }
   }
