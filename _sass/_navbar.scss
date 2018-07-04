@@ -1,5 +1,6 @@
 nav.navbar {
   @extend %shadow-effect;
+  padding: 0 16px;
   font-family: $label-font;
   font-weight: 400;
   a.navbar-brand {
