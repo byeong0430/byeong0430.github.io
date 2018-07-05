@@ -48,7 +48,7 @@ serif;
 }
 
 @mixin skill-border($colour) {
-  border: 1.5px $colour solid;
+  border: 1.7px $colour solid;
 }
 
 %shadow-effect {
@@ -58,8 +58,8 @@ serif;
 }
 
 %skill-img {
-  width: 55px;
-  height: 55px;
+  width: 59px;
+  height: 59px;
 }
 
 $background-colour: #F9F4ED;
