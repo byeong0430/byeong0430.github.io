@@ -47,6 +47,10 @@ serif;
   border-radius: 0.25em;
 }
 
+@mixin skill-border($colour) {
+  border: 1.5px $colour solid;
+}
+
 %shadow-effect {
   -webkit-box-shadow: 0px 1px 19px 2px rgba(112, 111, 112, 0.6);
   -moz-box-shadow: 0px 1px 19px 2px rgba(112, 111, 112, 0.6);
@@ -54,8 +58,8 @@ serif;
 }
 
 %skill-img {
-  width: 100px;
-  height: 100px;
+  width: 55px;
+  height: 55px;
 }
 
 $background-colour: #F9F4ED;
