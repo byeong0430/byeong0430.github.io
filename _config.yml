@@ -17,11 +17,11 @@ title: Byeong Kim
 email: byeong.kim0430@gmail.com
 telephone: 778-887-3994
 description: > # this means to ignore newlines until "baseurl:"
-  Full stack developer student passionate about designing efficient web applications and maximising a user experience.
-  My goal is to create beautifully designed web tools with clean code to improve users' everyday life.
+  Full stack developer student with a physical geography degree passionate about designing efficient web applications and maximising a user experience.
+  I found my passion in developingMy goal is to create beautifully designed web tools with clean code to improve users' everyday life.
   Aside from writing code, I like to go for long walks or travel around the world.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://yourdomain.com" # the base hostname & protocol for your site
+url: "http://byeong0430.github.io" # the base hostname & protocol for your site
 github_username:  byeong0430
 linked_in_shortUrl: byeong-kim-a385ba47
 # Build settings
