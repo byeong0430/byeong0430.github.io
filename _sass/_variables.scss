@@ -47,8 +47,8 @@ serif;
   border-radius: 0.25em;
 }
 
-@mixin skill-border($colour) {
-  border: 1.7px $colour solid;
+@mixin skill-border($thickness, $colour) {
+  border: $thickness $colour solid;
 }
 
 %shadow-effect {

@@ -25,16 +25,16 @@ main.site-skills {
       }
     }
     section.languages article {
-      @include skill-border(#f5c6cb);
+      @include skill-border(1.7px, #f5c6cb);
     }
     section.frameworks article {
-      @include skill-border(#b8daff);
+      @include skill-border(1.7px, #b8daff);
     }
     section.databases article {
-      @include skill-border(#c3e6cb);
+      @include skill-border(1.7px, #c3e6cb);
     }
     section.testing article {
-      @include skill-border(#c6c8ca);
+      @include skill-border(1.7px, #c6c8ca);
     }
   }
 }
