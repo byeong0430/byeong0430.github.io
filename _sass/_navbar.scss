@@ -1,12 +1,12 @@
 nav.navbar {
-  @extend %shadow-effect; // padding: 10px 16px;
+  @extend %shadow-effect;
   font-family: $label-font;
   font-weight: 800;
   a.navbar-brand {
-    font-size: 2em;
+    font-size: 1.8em;
   }
   i {
-    font-size: 2em;
+    font-size: 2.2em;
     margin-right: 0.3em;
   }
   ul.navbar-nav {
@@ -20,8 +20,8 @@ nav.navbar {
       font-size: 1.3em;
     }
     i {
-      font-size: 1.5em;
-      margin-right: 0.3em;
+      font-size: 1.4em;
+      margin-right: 0.4em;
     }
   }
 }
