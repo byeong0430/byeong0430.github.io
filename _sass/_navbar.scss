@@ -1,24 +1,27 @@
 nav.navbar {
-  @extend %shadow-effect;
-  padding: 0 16px;
+  @extend %shadow-effect; // padding: 10px 16px;
   font-family: $label-font;
-  font-weight: 400;
+  font-weight: 800;
   a.navbar-brand {
     font-size: 2em;
   }
-  #navbarNav {
-    font-size: 1.2em;
-    span {
-      display: inline-block;
-      width: 1.2em;
-      text-align: right;
-    }
+  i {
+    font-size: 2em;
+    margin-right: 0.3em;
+  }
+  ul.navbar-nav {
+    flex-direction: row;
   }
 }
 
-@media (min-width: 991px) {
-  #navbarNav {
-    display: flex;
-    justify-content: flex-end;
+@media (max-width: 991px) {
+  nav.navbar {
+    a.navbar-brand {
+      font-size: 1.3em;
+    }
+    i {
+      font-size: 1.5em;
+      margin-right: 0.3em;
+    }
   }
 }
