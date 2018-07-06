@@ -47,7 +47,7 @@ serif;
   border-radius: 0.25em;
 }
 
-@mixin skill-border($thickness, $colour) {
+@mixin stylise-border($thickness, $colour) {
   border: $thickness $colour solid;
 }
 

@@ -5,7 +5,6 @@ main.site-projects {
   main.container {
     section.project {
       margin: $exp-top-bott-margin;
-      // border-left: 2px $timeline-color solid;
       h1,
       h2 {
         margin: 0;
@@ -27,7 +26,11 @@ main.site-projects {
       }
       img {
         width: 100%;
+        padding: 2px;
         border-radius: 1em;
+        &:hover {
+          @include stylise-border(2px, #f5c6cb);
+        }
       }
     }
   }
