@@ -1,9 +1,14 @@
 nav.navbar {
   @extend %shadow-effect;
+  height: 4rem;
   font-family: $label-font;
+  color: white;
   font-weight: 800;
   a.navbar-brand {
     font-size: 1.8em;
+    #nav-description {
+      display: none;
+    }
   }
   i {
     font-size: 2.2em;
