@@ -1,6 +1,9 @@
 main.site-about {
   padding: 2em 0;
   article.container {
+    header#about-header {
+      @extend %header-style;
+    }
     div.row {
       // border:1px red solid;
       padding: 15px;
