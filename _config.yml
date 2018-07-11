@@ -18,8 +18,11 @@ role: Junior Web Developer
 email: byeong.kim0430@gmail.com
 telephone: 778-887-3994
 description: > # this means to ignore newlines until "baseurl:"
-  Junior full stack web developer with a physical geography degree.
-  I am passionate about designing efficient web applications and maximising a user experience.
+  Junior full stack web developer with a physical geography degree.<br/>
+  My journey to becoming a web developer began When I was working as an Air Quality Specialist.
+  I took upon myself to upgrade my team's web app as well as the database.
+  Then, I fell in love with learning new programming languages and decided to make a career change.<br/>
+  I am passionate about designing efficient web applications and maximising user experience.
   My goal is to create beautiful web tools with clean code to improve users' everyday life.
   Aside from writing code, I like to go for long walks or travel around the world.
 baseurl: "" # the subpath of your site, e.g. /blog
