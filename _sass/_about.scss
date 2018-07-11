@@ -1,5 +1,5 @@
 main.site-about {
-  padding: 2em 0;
+  padding-top: 2em;
   article.container {
     header#about-header {
       @extend %header-style;
@@ -18,7 +18,7 @@ main.site-about {
       }
       div.profile {
         /* this margin should be noticeable when pic goes on top of bio */
-        margin: 15px 0;
+        margin-top: 15px;
       }
       section.bio {
         h1,
