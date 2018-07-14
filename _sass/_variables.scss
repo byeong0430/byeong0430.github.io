@@ -37,7 +37,6 @@ serif;
 }
 
 @mixin hr-redline($thickness) {
-  margin-top: 1.5em;
   padding: 0;
   border: 0;
   clear: both;
@@ -47,7 +46,8 @@ serif;
   border-radius: 0.25em;
 }
 
-@mixin stylise-border($thickness, $colour) {
+@mixin stylise-border($thickness,
+$colour) {
   border: $thickness $colour solid;
 }
 
@@ -64,6 +64,8 @@ serif;
 
 $background-colour: #F9F4ED;
 $facepic-length: 277px;
-$btn-color: rgb(177, 89, 89);
+$btn-color: rgb(177,
+89,
+89);
 $timeline-color: #555151;
 $exp-top-bott-margin: 1em 0;

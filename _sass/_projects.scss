@@ -24,6 +24,13 @@ main.site-projects {
         @extend %para-style;
         display: inline-block;
       }
+      a.btn {
+        font-family: $label-font;
+        display: inline-block;
+        margin: 0.8em 0.5em 0 0;
+        background-color: $btn-color;
+        color: white;
+      }
       img {
         width: 100%;
         padding: 2px;
