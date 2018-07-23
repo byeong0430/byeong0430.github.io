@@ -14,11 +14,11 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Byeong Kim
-role: Junior Web Developer
+role: Full Stack Web Developer
 email: byeong.kim0430@gmail.com
 telephone: 778-887-3994
 description: > # this means to ignore newlines until "baseurl:"
-  Junior full stack web developer with a degree in physical geography.<br/>
+  Full stack web developer with a degree in physical geography.<br/>
   When I was working as an Air Quality Specialist, I took it upon myself to upgrade my team's web app as well as the database.
   I quickly fell in love with learning new programming languages and decided to make a career change.<br/>
   I am passionate about designing efficient web applications and maximising user experience.
