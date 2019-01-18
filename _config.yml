@@ -18,12 +18,9 @@ role: Full Stack Web Developer
 email: byeong.kim0430@gmail.com
 telephone: 778-887-3994
 description: > # this means to ignore newlines until "baseurl:"
-  Full stack web developer with a degree in physical geography.<br/>
-  When I was working as an Air Quality Specialist, I took it upon myself to upgrade my team's web app as well as the database.
-  I quickly fell in love with learning new programming languages and decided to make a career change.<br/>
-  I am passionate about designing efficient web applications and maximising user experience.
-  My goal is to create beautiful web tools with clean code to improve users' everyday life.
-  Aside from writing code, I like to go for long walks or travel around the world.
+  Full stack web developer with a degree in physical geography.
+  I am passionate about creating tools to connect people to information relevant to their lives.
+  I have strong emphasis on clean, modular code, and user-centered design. I also enjoy creating applications and learn new technologies on my own time.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://byeong0430.github.io" # the base hostname & protocol for your site
 github_username:  byeong0430
