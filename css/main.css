@@ -261,15 +261,24 @@ a {
   bottom: 0.3rem
 }
 
+#generate-pdf {
+  cursor: pointer;
+}
+
 .aside .text .material-icons {
   vertical-align: middle;
   font-size: 20px;
   color: black;
 }
 
-.aside .text i {
-  margin-right: 10px;
+.aside .text img {
+  width: 20px;
   vertical-align: middle;
+}
+
+.aside .text a,
+.aside .text span {
+  margin-left: 10px;
 }
 
 .aside .sub-title {

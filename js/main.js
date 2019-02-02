@@ -1,4 +1,5 @@
-$(() => {
-  // show nav icon description on mouse enter
-  showNavDescription(100);
-});
+$(document).ready(function () {
+  $('#generate-pdf').on('click', function () {
+    window.print();
+  });
+})
