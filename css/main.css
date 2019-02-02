@@ -74,7 +74,7 @@ a {
   display: inline-block;
   font-size: 2rem;
   color: #9e9e9e;
-  margin-right: 1.6rem;
+  margin: 0 0 1rem 1.6rem;
   white-space: nowrap
 }
 
@@ -103,12 +103,10 @@ a {
   background-repeat: no-repeat
 }
 
-.header .info-block .phone {
+.header .info-block .row .phone {
   display: inline-block;
   font-size: 1.6rem;
   color: #9e9e9e;
-  padding-left: 1.8rem;
-  border-left: 1px solid #9e9e9e;
   white-space: nowrap
 }
 
@@ -164,7 +162,7 @@ a {
   content: '';
   display: block;
   position: absolute;
-  top: 0.6rem;
+  top: 0.9rem;
   left: -0.5rem;
   width: 0.8rem;
   height: 0.8rem;
@@ -218,10 +216,29 @@ a {
   padding-left: 3.5rem
 }
 
+@media all and (min-width:768px) {
+  .aside .details--small {
+    display: none;
+  }
+}
+
 @media all and (max-width: 767px) {
   .aside .row {
     margin-left: 0.1rem;
   }
+
+  .aside .aside-group {
+    display: none;
+  }
+}
+
+.aside ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.aside .details--small li {
+  display: inline-block;
 }
 
 .aside .aside-group {
@@ -265,6 +282,10 @@ a {
   cursor: pointer;
 }
 
+.aside .details--small li {
+  margin: 0 1rem;
+}
+
 .aside .text .material-icons {
   vertical-align: middle;
   font-size: 20px;
@@ -276,7 +297,7 @@ a {
   vertical-align: middle;
 }
 
-.aside .text a,
+.aside .text .row a,
 .aside .text span {
   margin-left: 10px;
 }
