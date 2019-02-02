@@ -218,6 +218,12 @@ a {
   padding-left: 3.5rem
 }
 
+@media all and (max-width: 767px) {
+  .aside .row {
+    margin-left: 0.1rem;
+  }
+}
+
 .aside .aside-group {
   margin-bottom: 4rem;
   padding: 0 0.6rem
@@ -258,6 +264,7 @@ a {
 .aside .text .material-icons {
   vertical-align: middle;
   font-size: 20px;
+  color: black;
 }
 
 .aside .text i {
