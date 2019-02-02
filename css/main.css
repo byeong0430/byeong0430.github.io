@@ -283,7 +283,7 @@ a {
 }
 
 .aside .details--small li {
-  margin: 0 1rem;
+  margin: 0 0.5rem;
 }
 
 .aside .text .material-icons {
@@ -297,7 +297,7 @@ a {
   vertical-align: middle;
 }
 
-.aside .text .row a,
+.aside .text a,
 .aside .text span {
   margin-left: 10px;
 }
