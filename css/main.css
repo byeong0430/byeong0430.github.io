@@ -226,7 +226,7 @@ a {
   .aside .row {
     margin-left: 0.1rem;
   }
-  .aside .aside-group {
+  .aside .aside-group.details {
     display: none;
   }
 }
