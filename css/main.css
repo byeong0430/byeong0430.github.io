@@ -184,7 +184,7 @@ a {
   font-size: 2rem;
   font-style: italic;
   margin-bottom: 1.6rem;
-  color: #757575
+  color: #535353
 }
 
 .experience-group .tech-stack {
@@ -199,7 +199,7 @@ a {
 .experience-group .item-description {
   line-height: 1.5;
   font-size: 2rem;
-  color: #757575
+  color: #535353
 }
 
 .experience-group .item-description strong {
@@ -221,6 +221,12 @@ a {
 .aside .aside-group {
   margin-bottom: 4rem;
   padding: 0 0.6rem
+}
+
+.aside p,
+.aside .text,
+.aside a {
+  color: #535353;
 }
 
 .aside .title {
@@ -251,7 +257,7 @@ a {
 
 .aside .text .material-icons {
   vertical-align: middle;
-  font-size: 30px;
+  font-size: 20px;
 }
 
 .aside .text i {
@@ -288,7 +294,8 @@ a {
 .aside .section .text,
 .aside .section p {
   line-height: 1.5;
-  font-size: 2rem
+  font-size: 2rem;
+  margin-bottom: 1rem;
 }
 
 .aside .section .text.highlighted {
