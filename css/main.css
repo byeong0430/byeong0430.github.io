@@ -226,7 +226,6 @@ a {
   .aside .row {
     margin-left: 0.1rem;
   }
-
   .aside .aside-group {
     display: none;
   }
@@ -275,7 +274,7 @@ a {
   background: #fff;
   margin: 0 1.6rem;
   position: relative;
-  bottom: 0.3rem
+  bottom: 0.8rem;
 }
 
 #generate-pdf {
