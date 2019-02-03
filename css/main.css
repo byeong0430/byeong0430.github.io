@@ -191,7 +191,7 @@ a {
 }
 
 .experience-group .tech-stack>strong {
-  color: #188355;
+  color: #E8583D;
 }
 
 .experience-group .item-description {
@@ -238,11 +238,30 @@ a {
 
 .aside .details--small li {
   display: inline-block;
+  margin: 0 0.5rem 1rem;
+}
+
+.aside .details--small img,
+.aside .details--small i {
+  font-size: 3rem;
+}
+
+.aside .details--small a {
+  text-decoration: underline;
 }
 
 .aside .aside-group {
   margin-bottom: 4rem;
   padding: 0 0.6rem
+}
+
+.aside .aside-group.skills strong {
+  color: #E8583D;
+}
+
+.aside .aside-group span,
+.aside .aside-group a {
+  text-decoration: underline;
 }
 
 .aside p,
@@ -279,10 +298,6 @@ a {
 
 #generate-pdf {
   cursor: pointer;
-}
-
-.aside .details--small li {
-  margin: 0 0.5rem 1rem;
 }
 
 .aside .text .material-icons {
