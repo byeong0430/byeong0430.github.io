@@ -1,5 +1,5 @@
 $(document).ready(function () {
-  $('#generate-pdf').on('click', function () {
+  $('.pdf-download').on('click', function () {
     window.print();
   });
 })
