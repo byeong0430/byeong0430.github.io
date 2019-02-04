@@ -306,14 +306,9 @@ a {
   color: black;
 }
 
-.aside .text img {
-  width: 20px;
+.aside .text i {
+  margin-right: 10px;
   vertical-align: middle;
-}
-
-.aside .text a,
-.aside .text span {
-  margin-left: 10px;
 }
 
 .aside .sub-title {
