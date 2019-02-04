@@ -296,7 +296,7 @@ a {
   bottom: 0.8rem;
 }
 
-#generate-pdf {
+.pdf-download {
   cursor: pointer;
 }
 
