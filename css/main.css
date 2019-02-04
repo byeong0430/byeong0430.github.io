@@ -235,7 +235,8 @@ a {
 }
 
 @media print {
-  .example-item {
+  .example-item,
+  .example-image {
     display: none;
   }
 }
