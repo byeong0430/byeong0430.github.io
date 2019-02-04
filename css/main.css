@@ -134,7 +134,7 @@ a {
   margin-right: 0.2rem
 }
 
-.experience-group .material-icons {
+.experience-group .group-title .material-icons {
   position: absolute;
   top: 2px;
   left: -2px;
@@ -171,7 +171,8 @@ a {
   background: #fff
 }
 
-.experience-group .item-title {
+.experience-group .item-title,
+.experience-group .example-title {
   font-weight: bold;
   font-size: 2rem;
   margin-right: 2rem;
@@ -214,6 +215,50 @@ a {
   margin: 0.8rem 0;
   list-style-position: outside;
   padding-left: 3.5rem
+}
+
+.example-title:before {
+  border: unset;
+}
+
+.example-title {
+  margin: 3rem 0;
+}
+
+.example-title>.material-icons {
+  vertical-align: middle;
+}
+
+.example-item {
+  margin-left: 3rem;
+}
+
+@media print {
+  .example-item {
+    display: none;
+  }
+}
+
+.example-item .example-title {
+  cursor: pointer;
+}
+
+.example-title>.material-icons {
+  transition: all 0.2s ease;
+}
+
+.example-title>.material-icons.down {
+  transform: rotate(180deg);
+}
+
+.example-item .example-main {
+  display: none;
+}
+
+.example-item .example-main .example-image {
+  cursor: pointer;
+  width: 100%;
+  margin-bottom: 1rem;
 }
 
 @media all and (min-width:768px) {
@@ -263,6 +308,10 @@ a {
   text-decoration: underline;
 }
 
+.aside .generate-pdf {
+  cursor: pointer;
+}
+
 .aside p,
 .aside .text,
 .aside a {
@@ -300,19 +349,20 @@ a {
   cursor: pointer;
 }
 
-.aside .details--small li {
-  margin: 0 0.5rem;
-}
-
 .aside .text .material-icons {
   vertical-align: middle;
   font-size: 20px;
   color: black;
 }
 
-.aside .text i {
-  margin-right: 10px;
+.aside .text img {
+  width: 20px;
   vertical-align: middle;
+}
+
+.aside .text a,
+.aside .text span {
+  margin-left: 10px;
 }
 
 .aside .sub-title {
