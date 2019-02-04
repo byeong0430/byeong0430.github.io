@@ -191,7 +191,8 @@ a {
   font-size: 2rem;
 }
 
-.experience-group .tech-stack>strong {
+.experience-group .tech-stack>strong,
+.aside .aside-group strong {
   color: #E8583D;
 }
 
