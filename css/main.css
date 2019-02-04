@@ -300,6 +300,10 @@ a {
   cursor: pointer;
 }
 
+.aside .details--small li {
+  margin: 0 0.5rem;
+}
+
 .aside .text .material-icons {
   vertical-align: middle;
   font-size: 20px;
